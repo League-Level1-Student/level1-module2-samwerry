@@ -1,6 +1,7 @@
 package _03_smurf;
 
 public class Smurfs {
+	
 	public static void main(String[] args) {
 		
 		Smurf HandySmurf= new Smurf("HandySmurf");
