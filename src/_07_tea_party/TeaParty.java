@@ -14,10 +14,19 @@ public class TeaParty {
 			 }
 			 
 		 }
+		 else {
+			 
+			 if(isKnighted) {
+				 meet+="Sir ";
+			 }
+			 
+			 else {
+				 meet+="Mr. ";
+			 }
+		 }
+		 meet+=name;
 		 
-		 
-		 
-	        return;
+	        return meet;
 	        
 	 	}
 }
